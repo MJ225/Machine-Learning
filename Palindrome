@@ -1,0 +1,8 @@
+def Palindrome(s):
+    reverse=s[::-1]
+    if(s.lower()==reverse.lower()):
+        return True
+    
+    return False
+
+Palindrome('WOOw')
