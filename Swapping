@@ -1,0 +1,11 @@
+a= int(input("Enter 1st value a: "))
+print ("a=%d"%a)
+
+b= int(input("Enter 2nd value b: "))
+print("b=%d"%b)
+
+a = a+b
+b=a-b
+a=a-b
+
+print ("Value after swapping:  %d"%a,b)
