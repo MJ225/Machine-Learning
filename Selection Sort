@@ -1,0 +1,15 @@
+a = [64,12,15,78,98,56]
+b= len(a)
+print("Length of array is %d" %b)
+
+for i in range(b):
+    min = i
+    for j in range(i+1,b):
+        if(a[min]>a[j]):
+                min = j
+       
+    key=a[i]
+    a[i]=a[min]
+    a[min]=key
+    
+print(a)
